@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --ntasks=32
-#SBATCH --ntasks-per-node=16
+#SBATCH --ntasks=96
+#SBATCH --ntasks-per-node=32
 #SBATCH --hint=nomultithread
 #SBATCH --nodes=2
 #SBATCH --time=00:30:00
